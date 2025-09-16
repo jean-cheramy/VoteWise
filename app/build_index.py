@@ -8,7 +8,7 @@ from pypdf import PdfReader
 from embeddings import embed_texts, embeddings
 
 BASE_DIR: Path = Path(__file__).resolve().parent.parent
-RAW_DIR: Path = BASE_DIR / "data" / "raw"
+RAW_DIR: Path = BASE_DIR / "data" / "raw" / "fr"
 FAISS_DIR: Path = BASE_DIR / "data" / "faiss"
 INDEX_PATH: Path = FAISS_DIR / "index.faiss"
 

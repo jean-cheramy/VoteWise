@@ -24,9 +24,10 @@ Users can ask questions in natural language, and VoteWise retrieves relevant chu
 ## Possible Improvements
 
 - Add support for multiple parties and organize documents per party.
-- Automatically scrape party websites or social media (e.g., tweets) to update documents.
+- Automatically scrape party websites (airflow + github actions) or social media (e.g., tweets) to update documents.
 - Improve Streamlit interface for better UX, such as filtering by party or topic.
 - Switch to a faster embedding model or implement GPU support to speed up indexing.
+- 
 
 ## Notes
 
