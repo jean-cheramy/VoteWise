@@ -23,11 +23,11 @@ Users can ask questions in natural language, and VoteWise retrieves relevant chu
 
 ## Possible Improvements
 
-- Add support for multiple parties and organize documents per party.
-- Automatically scrape party websites (airflow + github actions) or social media (e.g., tweets) to update documents.
+- Add support for multiple parties and organize documents per party (official programme + news (rtbf en continu) + X).
+- Automatically scrape social media (e.g., tweets) to update knowledge base (airflow + github actions).
 - Improve Streamlit interface for better UX, such as filtering by party or topic.
 - Switch to a faster embedding model or implement GPU support to speed up indexing.
-- 
+- Add Flemish parties and test RAG quality for Dutch
 
 ## Notes
 
