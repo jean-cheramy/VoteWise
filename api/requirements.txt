@@ -3,7 +3,4 @@ uvicorn
 python-dotenv
 requests
 azure-search-documents==11.6.0b1
-langchain
 openai
-tiktoken
-pdfplumber
