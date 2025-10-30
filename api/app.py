@@ -5,7 +5,8 @@ from fastapi import FastAPI, Query
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
 from openai import AzureOpenAI
-
+from dotenv import load_dotenv 
+load_dotenv() 
 
 def search_similar(query: dict) -> list:
     """Retrieve relevant documents from Azure AI Search via vector search."""
